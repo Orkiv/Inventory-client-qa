@@ -20,3 +20,7 @@ InventoryClient-Dictionary
 #### Sample query dictionary
 
 		{ open : "<item id>" }
+
+### /orders/
+
+The key `itemIDs` (array of string id's of items bought) within each order may refer to a service or inventory item. If the case is an array of inventory items, the string may trail with additional parameters : variations, customer selected specifications. In this contingency the itemID is delimited by expression `%^}`.
