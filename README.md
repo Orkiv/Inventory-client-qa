@@ -1,5 +1,5 @@
 # Additional Document
-The aim of this document is to provide more insight on API endpoint paths
+The aim of this document is to provide more insight on API endpoint paths. We recommend consuming this API with Mashape to have full access to object parameters.
 
 ### /items/count/
 
